@@ -46,8 +46,9 @@ Copula is a function which satisfies certain conditions, most importantly, it re
 
 𝐹(𝑥1,𝑥2,...,𝑥𝑁)=𝐶(𝐹1(𝑥1),𝐹2(𝑥2),...,𝐹𝑁(𝑥𝑁))
  
-Note here  𝐹(𝑥𝑖)  is a comulative distribution function and will have a uniform distribution. Similar to the relationship between cumulative distribution function and probability distribution function where  𝑓(𝑥)=𝑑𝐹𝑑𝑥 , partial derivative of Copula function is defined as below:
-𝑐(𝑢1,𝑢2,...,𝑢𝑁)=∂𝐶(𝑢1,𝑢2,...,𝑢𝑁)∂𝑢1∂𝑢2...∂𝑢3
+Note here  𝐹(𝑥𝑖)  is a comulative distribution function and will have a uniform distribution. Similar to the relationship between cumulative distribution function and probability distribution function where  𝑓(𝑥)=𝑑𝐹/𝑑𝑥 , partial derivative of Copula function is defined as below:
+
+𝑐(𝑢1,𝑢2,...,𝑢𝑁)=∂𝐶(𝑢1,𝑢2,...,𝑢𝑁)/∂𝑢1∂𝑢2...∂𝑢3
  
 then, the probability distribution function of the multivariate distribution will be:
 𝑓(𝑥1,𝑥2,...,𝑥𝑁)=𝑐(𝐹1(𝑥1),𝐹2(𝑥2),...,𝐹𝑁(𝑥𝑁))∏𝑖=1𝑁𝑓𝑛(𝑥𝑖)
